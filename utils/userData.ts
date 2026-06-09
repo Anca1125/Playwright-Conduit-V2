@@ -7,3 +7,11 @@ export function generateUser() {
     password: "Parola1234!",
   };
 }
+
+export function generateTitle() {
+  const uniqueTitle = Date.now();
+
+  return {
+    title: `Playwright ${uniqueTitle} is awsome`,
+  };
+}
